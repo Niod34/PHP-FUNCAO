@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20PX;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1710790339046332398/028D5D04D44A698B4F16646088BA844A5493EC1F/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+
+
+}
+
+main {
+
+    border: 2px solid black;
+    border-radius: 15PX;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 2rem;
+    background-color: transparent;
+   color: white;
+
+}
+
+form {
+
+    padding: 1rem;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    color: white;
+
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid black;
+}

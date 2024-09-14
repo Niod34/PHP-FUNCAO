@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Peso Ideal</title>
+    <link rel="stylesheet" href="atv3.css">
+</head>
+<body>
+    <h1>Calcule seu Peso Ideal</h1>
+    <form action="atv3.php" method="POST">
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="M">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="sexo" value="F">
+        <label for="feminino">Feminino</label><br><br>
+        
+        <label for="altura">Altura (em metros):</label><br>
+        <input type="text" id="altura" name="altura" required><br><br>
+        
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
